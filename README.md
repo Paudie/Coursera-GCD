@@ -6,17 +6,16 @@ Getting and Cleaning Data Project:
 Below are the high-level steps that should be followed to get the data
 and run the script (run_analysis.R) that produces a final tidy data set
 
-## Step 1: It is assumed that you manually download files from the below
-## URL and unzip into your desired dir (e.g. my working Dir below in Step 2)
+# Step 1: It is assumed that you manually download files from the below URL and unzip into your desired dir (e.g. my working Dir below in Step 2)
 Download and Unzip the source data from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## Step 2: Put/download run_analysis.R into your working dir
+# Step 2: Put/download run_analysis.R into your working dir
 
-## Step 3: Using R/RStudio; set working dir to be the location of the unzipped files
-## e.g. setwd("C:/Users/Admin/Desktop/Coursera-GCD/UCI HAR Dataset") 
+# Step 3: Using R/RStudio; set working dir to be the location of the unzipped files
+e.g. setwd("C:/Users/Admin/Desktop/Coursera-GCD/UCI HAR Dataset") 
 
-## Step 4: source("run_analysis.R")
+# Step 4: source("run_analysis.R")
 This will run the R script, reading in various files from the downloaded datasets and creating 5 distinct data frames - 1 for each deliverable of the assignment
 
 They will be: 
@@ -33,6 +32,5 @@ req5Data.txt
 
 The script will run for up to a minute but it depends on your machine.
 
-# Step 5: Technically I think we should clear all of the requirement 
-# dataframes from memory
+# Step 5: Technically I think we should clear all of the requirement dataframes from memory
 rm(req1Data,req2Data,req3Data,req4Data,req5Data)
